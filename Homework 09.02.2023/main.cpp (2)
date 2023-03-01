@@ -19,7 +19,8 @@ int main() {
     for (int i = 0; i < s1.size(); ++i) {
         if (s1[i] >= 'a' && s1[i] <= 'z') {
             letter++;
-        } else if (s1[i] >= 'A' && s1[i] <= 'Z') {
+        } 
+        if (s1[i] >= 'A' && s1[i] <= 'Z') {
             letter++;
         }
         if (s1[i] >= '0' && s1[i] <= '9') {
@@ -27,11 +28,14 @@ int main() {
         }
         if (s1[i] >= '!' && s1[i] <= '/') {
             symbol++;
-        } else if (s1[i] >= ':' && s1[i] <= '@') {
+        } 
+        if (s1[i] >= ':' && s1[i] <= '@') {
             symbol++;
-        } else if (s1[i] >= '[' && s1[i] <= '`') {
+        } 
+        if (s1[i] >= '[' && s1[i] <= '`') {
             symbol++;
-        } else if (s1[i] >= '{' && s1[i] <= '~') {
+        } 
+        if (s1[i] >= '{' && s1[i] <= '~') {
             symbol++;
         }
 
